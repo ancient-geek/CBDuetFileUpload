@@ -11,13 +11,15 @@ Clicking this prompts for a g-code file to be generated for the current project 
 ![Dialog](/DuetFileUploadHMI.png)
 
 #### Filename   
-This is the name of the g-code file as it will be stored in Duet's /gcodes folder.
+This is the filename of the g-code file as it will be stored in Duet's /gcodes folder. 
 
 #### Duet 3D URL
-This is the URL of the Duet and may be eentered either as an IP address, such as http://192.168.0.2 or the mDNS name of the Duet board, such as http://cnc.local.
+Enter the network location of the Duet here, using either the mDNS name of the Duet board (e.g. http://cnc.local) or its IP address (e.g. http://192.168.0.2).
 
 #### Upload
-Click to upload the file to the Duet.
+Click to start uploading the file to the Duet. Status updates will be shown and once the upload has completed the dialog will close.
+
+![Success](/DuetFileUploadHMISuccess.png)
 
 #### Open Duet's control interface after upload?
 If checked, Duet's web based control interface will be opened in the default browser once the upload has completed.
