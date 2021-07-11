@@ -8,7 +8,7 @@ The PlugIn adds a menu item "Upload to Duet CNC" to CamBam's Tools menu.
 
 Clicking this prompts for a g-code file to be generated for the current project and then opens a dialog box.
 
-![Dialog](/images/DuetFileUploadHMI.png)
+![Dialog](/DuetFileUploadHMI.png)
 
 ##Filename   
 This is the name of the g-code file as it will be stored in Duet's /gcodes folder.
