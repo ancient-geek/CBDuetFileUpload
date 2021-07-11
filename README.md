@@ -19,6 +19,8 @@ This is the URL of the Duet and may be eentered either as an IP address, such as
 #### Upload
 Click to upload the file to the Duet.
 
+#### Open Duet's control interface after upload?
+If checked, Duet's web based control interface will be opened in the default browser once the upload has completed.
 
 ### Notes
 Part of this plugin were derived from the excellent cb2cm plugin: https://github.com/jkmnt/cb2cm.

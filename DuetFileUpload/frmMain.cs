@@ -81,6 +81,9 @@ namespace CamBamPlugIn
 				{
 					txtURL.Text = "http:\\\\";
 				}
+
+				//Set the preferred open browser settings
+				optOpenBrowser.Checked = Properties.Settings.Default.OpenDWC;
 			}
 			catch(Exception ex)
 			{
@@ -92,7 +95,7 @@ namespace CamBamPlugIn
 		//Set the focus to the status text box
 		private void frmMain_Shown(object sender, EventArgs e)
 		{
-			txtStatus.Focus();
+			optOpenBrowser.Focus();
 		}
 
 		//User event: file upload
@@ -136,6 +139,12 @@ namespace CamBamPlugIn
 					if (uploadFile(client, DuetFilename, Gcode) == 0)
 					{
 						txtStatus.AppendText("Success!\r\n");
+						
+						//Open a browser for the Duet's web interface, if required
+						if (optOpenBrowser.Checked)
+						{
+							System.Diagnostics.Process.Start(DuetURL.AbsoluteUri);
+						}
 					}
 					else
 					{
@@ -153,10 +162,16 @@ namespace CamBamPlugIn
 
 				//Close the Client
 				client.Dispose();
-								
+				
 				//Wait then close the plugin
 				Thread.Sleep(2000);	
 				this.Close();
+				
+				//Save the open browser setting
+				Properties.Settings.Default.OpenDWC = optOpenBrowser.Checked;
+				Properties.Settings.Default.Save();
+
+
 			}
 			catch(Exception ex)
 			{

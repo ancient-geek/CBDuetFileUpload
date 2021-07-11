@@ -34,5 +34,17 @@ namespace CamBamPlugIn.Properties {
                 this["DuetURL"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool OpenDWC {
+            get {
+                return ((bool)(this["OpenDWC"]));
+            }
+            set {
+                this["OpenDWC"] = value;
+            }
+        }
     }
 }
