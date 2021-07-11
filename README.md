@@ -21,6 +21,7 @@ Click to upload the file to the Duet.
 
 
 ### Notes
-Part of this plugin were derived from the excellent cb2cm plugin: https://github.com/jkmnt/cb2cm
-Windows only.
+Part of this plugin were derived from the excellent cb2cm plugin: https://github.com/jkmnt/cb2cm.
+
+This plugin is for Windows only.
 
