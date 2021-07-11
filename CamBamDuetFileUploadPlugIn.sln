@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuetFileUpload", "DuetFileUpload\DuetFileUpload.csproj", "{088D83A7-1B43-47DB-B801-1E11FF0F09B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088D83A7-1B43-47DB-B801-1E11FF0F09B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088D83A7-1B43-47DB-B801-1E11FF0F09B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088D83A7-1B43-47DB-B801-1E11FF0F09B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088D83A7-1B43-47DB-B801-1E11FF0F09B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5429F1D5-60EA-4BD6-9E8E-1E200AAD928A}
+	EndGlobalSection
+EndGlobal
