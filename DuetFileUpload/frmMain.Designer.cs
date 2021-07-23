@@ -54,7 +54,7 @@ namespace CamBamPlugIn
             this.txtURL.BackColor = System.Drawing.SystemColors.Window;
             this.txtURL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtURL.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtURL.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtURL.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtURL.Location = new System.Drawing.Point(117, 48);
             this.txtURL.Name = "txtURL";
             this.txtURL.Size = new System.Drawing.Size(392, 24);
@@ -77,7 +77,7 @@ namespace CamBamPlugIn
             this.txtStatus.BackColor = System.Drawing.SystemColors.Control;
             this.txtStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStatus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtStatus.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtStatus.Location = new System.Drawing.Point(11, 91);
             this.txtStatus.Multiline = true;
             this.txtStatus.Name = "txtStatus";
@@ -89,7 +89,7 @@ namespace CamBamPlugIn
             this.txtFilename.BackColor = System.Drawing.SystemColors.Window;
             this.txtFilename.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtFilename.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFilename.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtFilename.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtFilename.Location = new System.Drawing.Point(117, 15);
             this.txtFilename.Name = "txtFilename";
             this.txtFilename.Size = new System.Drawing.Size(392, 24);
